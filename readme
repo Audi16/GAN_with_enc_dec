@@ -1,0 +1,4 @@
+GAN_with_enc_dec：
+	pre_train:pre_train the encoder of Generator.
+	train: load the weights from the pre_trained model, then train the Discrinator and the decoder of Generator.
+	triangle_train: optim the encoder, discriminator and the decoder in turns.
